@@ -1,0 +1,244 @@
+@media (max-width:1200px) {
+    .nav {
+        gap: 300px;
+    }
+
+    .header__content_img {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .header__content {
+        padding: 0 50px;
+    }
+
+    .header__text {
+        text-align: center;
+    }
+
+    .section__two_img {
+        max-width: 1100px;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .sec__pos {
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .logo {
+        justify-content: center;
+        gap: 150px;
+        margin-bottom: 50px;
+    }
+
+    .footer__two_part {
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .header__content {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .header__content_img {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .main__one img {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .main__two img {
+        max-width: 300px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .main__footer {
+        gap: 50px;
+    }
+
+    .section__two_img {
+        max-width: 800px;
+        width: 100%;
+    }
+
+    .main__three img {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .work__cards {
+        gap: 5px;
+    }
+
+    .work__card-1 {
+        max-height: 470px;
+    }
+
+    .work__card-3 {
+        max-height: 470px;
+    }
+
+    .work__two_cards {
+        padding: 0 20px;
+    }
+
+    .main__four img {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .sect__a_btn {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .sec__pos {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:768px) {
+    .logo {
+        gap: 30px;
+    }
+
+    .start__clerksy {
+        padding-top: 20px;
+    }
+
+    .start__clerksy {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-bottom: 100px;
+    }
+
+    .main__four {
+        gap: 30px;
+    }
+
+    .main__three {
+        gap: 30px;
+    }
+
+    .section__two_img {
+        max-width: 700px;
+        width: 100%;
+    }
+
+    .section__two_title {
+        max-width: 650px;
+    }
+
+    .section__two_p {
+        max-width: 700px;
+    }
+
+    .main__footer {
+        gap: 30px;
+    }
+
+    .main__two {
+        gap: 20px;
+    }
+
+    .main__one {
+        gap: 20px;
+    }
+}
+
+@media (max-width:576px) {
+    .main__footer {
+        flex-wrap: wrap;
+    }
+
+    .work__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .work__card-2 {
+        margin-bottom: 0;
+    }
+
+    .work__two_cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__four {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .green__img {
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .green__img_two {
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .start__clerksy {
+        margin-bottom: 170px;
+    }
+
+    .pos__text_pri {
+        max-width: 300px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+
+    .start__clerksy {
+        margin-bottom: 190px;
+    }
+
+    .main__three {
+        flex-direction: column;
+    }
+
+    .section__two_title {
+        max-width: 500px;
+    }
+
+    .section__two_p {
+        max-width: 500px;
+    }
+
+    .section__two_img {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .main__two{
+        flex-direction: column-reverse;
+    }
+
+    .main__one{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+}
